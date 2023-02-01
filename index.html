@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants Kristaps Tunnis</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/recycling_86328.ico">
+
+    <!-- Link to JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Links to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- Header -->
+    <header class="header" id="home">
+        <div class="header_container">
+            <div class="header_navbar">
+                <div class="header_navbar_logo">
+                    <a href="#" class="header_navbar_logo_link">
+                        <div class="logo_img">
+                            <img src="assets/img/Vector_1.png" class="logo_img_vector1" alt="Something went wrong!">
+                            <img src="assets/img/Vector_2.png" class="logo_img_vector2" alt="Something went wrong!">
+                        </div>
+    
+                        <p class="logo_text">Plants</p>
+                    </a>
+                </div>
+
+
+                <!-- Navigation -->
+                <nav class="navigation">
+                    <ul>
+                        <li class="navigation_list">
+                            <a href="#home" class="navigation_list_active nav_link">Home</a>
+                            <a href="#about" class="nav_link">About us</a>
+                            <a href="#service" class="nav_link">Service</a>
+                            <a href="#price" class="nav_link">Price</a>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile navigation -->
+                <div class="burger-menu">
+                    <a href="" class="burger-menu_button">
+                      <spun class="burger-menu_lines"></spun>
+                    </a>
+                    <nav class="burger-menu_nav">
+                      <a href="#home" class="burger-menu_link">Home</a>
+                      <a href="#about" class="burger-menu_link">About us</a>
+                      <a href="#service" class="burger-menu_link">Service</a>
+                      <a href="#price" class="burger-menu_link">Price</a>
+                      <a href="#contacts" class="burger-menu_link">Contacts</a>
+                    </nav>
+                    <div class="burger-menu_overlay"></div>
+                  </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main -->
+    <main>
+
+        <!-- Welcome section -->
+        <section class="section_welcome">
+            <div class="welcome_container">
+                <div class="welcome">
+                    <div class="welcome_leafs"> 
+                       <img src="assets/img/leafs.png" alt="Leafs">
+                    </div>
+
+                    <div class="welcome_text">
+                        <h1>We grow <span>plants</span> and give you oxygen</h1>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+                        <button>Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="section_about" id="about">
+            <div class="about_container">
+                <div class="about">
+                    <div class="about_info">
+                        <h2>We are <span>professional experienced</span> gardeners</h2>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    </div>
+
+                    <img src="assets/img/houseplant_1.png" class="about_img" alt="House plant">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section class="section_services" id="service">
+            <div class="services_container">
+                <div class="services_content">
+                    <h2>Service and our projects</h2>
+
+                    <div class="services_content_btn">
+                        <button class="services_btn_1" id="btn_first" onclick="btnGardens()">Gardens</button>
+                        <button class="services_btn_2" id="btn_second" onclick="btnLawn()">Lawn</button>
+                        <button class="services_btn_3" id="btn_third" onclick="btnPlanting()">Planting</button>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="services_card services1" id="card_garden_first">
+                        <img src="assets/img/first_mobile.png" alt="Something wen wrong!">
+
+                        <div class="services_card_info">
+                            <p class="services_card_info_header">Garden care</p>
+                            <p class="services_card_info_text">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="services_card services2" id="card_planting_first">
+                        <img src="assets/img/first(1)_mobile.png" alt="Something wen wrong!">
+
+                        <div class="services_card_info">
+                            <p class="services_card_info_header">Planting</p>
+                            <p class="services_card_info_text">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="services_card services3" id="card_lawn">
+                        <img src="assets/img/first(2)_mobile.png" alt="Something wen wrong!">
+
+                        <div class="services_card_info">
+                            <p class="services_card_info_header">Lawn care</p>
+                            <p class="services_card_info_text">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="services_card services4" id="card_planting_second">
+                        <img src="assets/img/first(3)_mobile.png" alt="Something wen wrong!">
+
+                        <div class="services_card_info">
+                            <p class="services_card_info_header">Planting</p>
+                            <p class="services_card_info_text">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="services_card services5" id="card_garden_second">
+                        <img src="assets/img/first(4)_mobile.png" alt="Something wen wrong!">
+
+                        <div class="services_card_info">
+                            <p class="services_card_info_header">Garden care</p>
+                            <p class="services_card_info_text">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="services_card services6" id="card_planting_third">
+                        <img src="assets/img/first(5)_mobile.png" alt="Something wen wrong!">
+
+                        <div class="services_card_info">
+                            <p class="services_card_info_header">Planting</p>
+                            <p class="services_card_info_text">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prices section -->
+        <section class="section_prices" id="price">
+            <div class="prices_container">
+                <div class="prices">
+                    <div class="price_options">
+                        <h2 class="prices-h2">Prices</h2>
+                        <div class="price_select">
+                            <div class="button_block" style="background: rgb(237, 242, 236);">
+                                <div class="button_close">
+                                    <span class="button_close_text">Basics</span> 
+                                    <span class="price_arrow">
+                                        <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.00003 2.99997L1.00002 1.00008" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                            <path d="M3 3L5 1" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>     
+                                <div class="button_open" style="display: none;">
+                                    <p class="button_open_text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p class="button_open_price"><span class="price_text">$15</span>  / per hour</p>
+                                    <a href="#contacts"><button class="button_order">Order</button></a>
+                                </div> 
+                            </div>
+    
+                            <div class="button_block" style="background: rgb(237, 242, 236);">
+                                <div class="button_close">
+                                    <span class="button_close_text">Standard</span>
+                                    <span class="price_arrow">
+                                        <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.00003 2.99997L1.00002 1.00008" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                            <path d="M3 3L5 1" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>    
+                                <div class="button_open" style="display: none;">
+                                    <p class="button_open_text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p class="button_open_price"><span class="price_text">$25</span> / per hour</p>
+                                    <a href="#contacts"><button class="button_order">Order</button></a>
+                                </div>
+                            </div>
+    
+                            <div class="button_block" style="background: rgb(237, 242, 236);">
+                                <div class="button_close">
+                                    <span class="button_close_text"> Pro care</span>
+                                    <span class="price_arrow">
+                                        <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.00003 2.99997L1.00002 1.00008" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                            <path d="M3 3L5 1" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>    
+                                <div class="button_open" style="display: none;">
+                                    <p class="button_open_text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p class="button_open_price"><span class="price_text">$35</span> / per hour</p>
+                                    <a href="#contacts"><button class="button_order">Order</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prices_right_section">
+                        <div class="prices_right_section_text">
+                            <p>Our best <span>gardeners</span> are ready to help you</p>
+    
+                            <a href="#contacts"><button>Contact us</button></a>
+                        </div>
+    
+                        <div class="prices_right_section_leafs">
+                            <img src="assets/img/leafs2.png" alt="Leafs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts section -->
+        <section class="section_contacts" id="contacts">
+            <div class="contacts_container">
+                <div class="contacts">
+                    <img src="assets/img/contact_woman_1.png" class="contacts_info_img" alt="Something went wrong!" id="contacts_img">
+
+                    <div class="contacts_right_section" id="contacts_right_section">
+                        <h2>Contact us</h2>
+                        <div class="wrapper-city">
+                            <input type="checkbox" id="city">
+                            <label for="city" id = 'label' onclick="openList()">
+                                <span class="contacts_city_text" id="contacts_city_text">City</span>
+                                <span class="arrow" id="arrow">
+                                    <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.00003 2.99997L1.00002 1.00008" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                        <path d="M3 3L5 1" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
+                                    </svg>
+                                </span>
+                            </label>
+                            <ul class="city-list" id="city_list">
+                                <li onclick="selectedCanandaigua();changeStyle()">Canandaigua, NY</li>
+                                <li onclick="selectedNY(); changeStyle()">New York City</li>
+                                <li onclick="selectedYonkers(); changeStyle()">Yonkers, NY</li>
+                                <li onclick="selectedSherrill(); changeStyle()">Sherrill, NY</li>
+                            </ul>
+
+                            <div class="selected_city" id="selected_city">
+                                <div class="selected_city_info">
+                                    <div class="city_info">
+                                        <p>City:</p><span id="city_text"></span>
+                                    </div>
+
+                                    <div class="city_phone">
+                                        <p>Phone:</p><span id="phone"></span>
+                                    </div>
+
+                                    <div class="city_address">
+                                        <p>Office address:</p><span id="address"></span>
+                                    </div>
+
+                                    <button id="selected_city_button" onclick="window.open('tel:' + document.querySelector('#phone').textContent)">Call us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer_container">
+            <div class="footer_content">
+                <div class="footer_content_data">
+                    <a href="https://github.com/Kriforce">
+                        <p>©</p>
+                        <p class="footer_content_data_year">2022</p>
+                        <p class="footer_content_data_github">Kriforce</p>
+                    </a>
+                </div>
+
+                <p class="footer_content_text"><a href="https://rs.school/js-stage0/">Rolling Scopes School</a></p>
+
+                <div class="footer_content_social">
+                    <ul class="footer_content_social_list">
+                        <li><a href="https://www.instagram.com/explore/tags/rollingscopes/"><img src="assets/svg/inst_1.svg" class="footer_content_social_inst" alt="Instagram"></a></li>
+                        <li><a href="https://www.facebook.com/groups/TheRollingScopes/?mibextid=6NoCDW"><img src="assets/svg/fb_1.svg" class="footer_content_social_fb" alt="Facebook!"></a></li>
+                        <li><a href="https://twitter.com/rollingscopes"><img src="assets/svg/tw_1.svg" class="footer_content_social_tw" alt="Twitter"></a></li>
+                        <li><a href="https://www.pinterest.com/"><img src="assets/svg/pinterest_1.svg" class="footer_content_social_pinterest" alt="Pinterest"></a></li>
+                        <li><a href="https://github.com/Kriforce"><img src="assets/svg/github_1.svg" class="footer_content_social_github" alt="GitHub"></a></li>
+                        <li><a href="https://rs.school/js-stage0/"><img src="assets/svg/RSS_1.svg" class="footer_content_social_RSS" alt="RS School"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to JS file -->
+    <script src="js/menuBurger.js"></script>
+    <script src="js/buttonServices.js"></script>
+    <script src="js/selectedCity.js"></script>
+    <script src="js/selectedPrice.js"></script>
+
+</body>
+</html>
